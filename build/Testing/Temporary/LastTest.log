@@ -1,0 +1,62 @@
+Start testing: Feb 19 16:12 MSK
+----------------------------------------------------------
+1/1 Testing: ST-1.test
+1/1 Test: ST-1.test
+Command: "/Users/vasilijperaskin/Desktop/St-1/ST-1/build/test/ST-1.test"
+Directory: /Users/vasilijperaskin/Desktop/St-1/ST-1/build/test
+"ST-1.test" start time: Feb 19 16:12 MSK
+Output:
+----------------------------------------------------------
+[==========] Running 12 tests from 5 test suites.
+[----------] Global test environment set-up.
+[----------] 3 tests from PrimeTest
+[ RUN      ] PrimeTest.CheckPrimeRequiredSmallSet
+[       OK ] PrimeTest.CheckPrimeRequiredSmallSet (0 ms)
+[ RUN      ] PrimeTest.CheckPrimeEvenAndOdd
+[       OK ] PrimeTest.CheckPrimeEvenAndOdd (0 ms)
+[ RUN      ] PrimeTest.CheckPrimeLargerNumbers
+[       OK ] PrimeTest.CheckPrimeLargerNumbers (0 ms)
+[----------] 3 tests from PrimeTest (0 ms total)
+
+[----------] 2 tests from NPrimeTest
+[ RUN      ] NPrimeTest.FirstPrimes
+[       OK ] NPrimeTest.FirstPrimes (0 ms)
+[ RUN      ] NPrimeTest.LargerN
+[       OK ] NPrimeTest.LargerN (0 ms)
+[----------] 2 tests from NPrimeTest (0 ms total)
+
+[----------] 3 tests from NextPrimeTest
+[ RUN      ] NextPrimeTest.ExamplesFromStatement
+[       OK ] NextPrimeTest.ExamplesFromStatement (0 ms)
+[ RUN      ] NextPrimeTest.SmallValues
+[       OK ] NextPrimeTest.SmallValues (0 ms)
+[ RUN      ] NextPrimeTest.MoreCases
+[       OK ] NextPrimeTest.MoreCases (0 ms)
+[----------] 3 tests from NextPrimeTest (0 ms total)
+
+[----------] 2 tests from SumPrimeTest
+[ RUN      ] SumPrimeTest.RequiredBounds
+[       OK ] SumPrimeTest.RequiredBounds (0 ms)
+[ RUN      ] SumPrimeTest.ExtraBounds
+[       OK ] SumPrimeTest.ExtraBounds (0 ms)
+[----------] 2 tests from SumPrimeTest (0 ms total)
+
+[----------] 2 tests from st1
+[ RUN      ] st1.sumPrime1
+[       OK ] st1.sumPrime1 (58 ms)
+[ RUN      ] st1.sumPrime2
+[       OK ] st1.sumPrime2 (0 ms)
+[----------] 2 tests from st1 (58 ms total)
+
+[----------] Global test environment tear-down
+[==========] 12 tests from 5 test suites ran. (58 ms total)
+[  PASSED  ] 12 tests.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"ST-1.test" end time: Feb 19 16:12 MSK
+"ST-1.test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Feb 19 16:12 MSK

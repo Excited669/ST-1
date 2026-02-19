@@ -23,6 +23,9 @@ target_link_libraries(${PROJECT_NAME}.test
     gtest
     #gtest_main
 )
+add_test(NAME ${PROJECT_NAME}.test COMMAND $<TARGET_FILE:${PROJECT_NAME}.test>)
+
+
 
 
 #target_link_libraries(GTest::GTest INTERFACE gtest_main)  

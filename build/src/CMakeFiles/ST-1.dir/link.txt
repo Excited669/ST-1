@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG -arch arm64 -dynamiclib -Wl,-headerpad_max_install_names -o libST-1.dylib -install_name @rpath/libST-1.dylib "CMakeFiles/ST-1.dir/alg.cpp.o"
